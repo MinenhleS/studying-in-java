@@ -1,18 +1,43 @@
+import java.util.HashMap;
+
 public class Learner extends Person {
 
-
+    //String subName;
     int numberOfSubjects;
+    int tokenHold = 0;
 
     //constructor
-    public Learner(String firstName, String lastName, String email, int numberOfSubjects) {
+    public Learner(String firstName, String lastName, String email, int tokenHold) {
         super(firstName, lastName,email);
-        this.numberOfSubjects = numberOfSubjects;
+        this.tokenHold = tokenHold;
     }
 
-    //Accessor method for getting number of subject learner enrolled in & tokens
-    public int getNumberOfSubjects(){
-        return numberOfSubjects;
+    //Map for getting subjects
+    HashMap<String, Integer> subjectsMap = new HashMap<>();
+
+    public void AddingSubject(String subName){
+        if(!subjectsMap.containsKey(subName)){
+            subjectsMap.put(subName,0);
+        }
+
+
     }
+
+    public String takeALesson(){
+        numberOfSubjects = subjectsMap.size();
+
+        if(numberOfSubjects <= 3){
+            return "CAN TAKE A LESSON";
+        }
+        else{
+            return "YOU DON'T QUALIFY";
+        }
+    }
+
+    public int getTokenHold() {
+        return tokenHold;
+    }
+
 
 
 }
