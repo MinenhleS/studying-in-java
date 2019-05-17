@@ -1,16 +1,31 @@
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.AssertEquals.assertEquals;
 
 public class LearnerTest {
 
     @Test
-    public void shouldBeAbleToAddStudents(){
+    public void shouldQualifyALeaner(){
 
         Learner learner  = new Learner("", "", "", 0);
-        learner.subjects.put();
+        learner.addingSubject("mathematics");
+        learner.addingSubject("physics");
+        learner.addingSubject("CompScie");
+        learner.addingSubject("Statistics");
 
-        assertEquals("", learner.getstudents);
+        assertEquals("CAN TAKE A LESSON", learner.takeALesson());
     }
+
+    @Test
+    public void shouldDisqualifyALeaner(){
+
+        Learner learner  = new Learner("", "", "", 0);
+        learner.addingSubject("mathematics");
+        learner.addingSubject("physics");
+
+
+
+        assertEquals("YOU DON'T QUALIFY", learner.takeALesson());
+    }
+
 }

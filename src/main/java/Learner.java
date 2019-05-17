@@ -15,18 +15,22 @@ public class Learner extends Person {
     //Map for getting subjects
     HashMap<String, Integer> subjectsMap = new HashMap<>();
 
-    public void AddingSubject(String subName){
-        if(!subjectsMap.containsKey(subName)){
-            subjectsMap.put(subName,0);
-        }
+    public void addingSubject(String subName){
 
+
+        if(!subjectsMap.containsKey(subName)){
+            subjectsMap.put(subName,1);
+
+        }
+//        int subCounter = subjectsMap.get(subName);
+//        subjectsMap.put(subName,subCounter);
 
     }
 
     public String takeALesson(){
         numberOfSubjects = subjectsMap.size();
 
-        if(numberOfSubjects <= 3){
+        if(numberOfSubjects >= 3){
             return "CAN TAKE A LESSON";
         }
         else{

@@ -1,10 +1,10 @@
-public class Lesson {
-
-
-
-
-    public String accept( Learner learner){
-
-
-    }
-}
+//public class Lesson {
+//
+//
+//
+//
+//    public String accept( Learner learner){
+//
+//
+//    }
+//}
