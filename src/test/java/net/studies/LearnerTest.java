@@ -1,19 +1,16 @@
 package net.studies;
 
-import net.studies.Subjects;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 public class LearnerTest {
 
     @Test
-    public void shouldDisplayFirstLastNameAndEmail(){
+    public void shouldDisplayLearnerFirstLastNameAndEmail(){
 
         Learner learner  = new Learner("Minenhle", "Ngwenya", "dinho@gmail.com", 0);
 
-        Assert.assertEquals("Minenhle Ngwenya dinho@gmail.com 0", learner.displayLearnerDetails());
+        Assert.assertEquals("Minenhle Ngwenya dinho@gmail.com", learner.toString());
     }
 
     @Test

@@ -1,8 +1,5 @@
 package net.studies;
 
-import net.studies.Person;
-import net.studies.Subjects;
-
 import java.util.ArrayList;
 
 public class Teacher extends Person {
@@ -13,11 +10,6 @@ public class Teacher extends Person {
     public Teacher(String firstName, String lastName, String email, int tokenHold) {
         super(firstName, lastName,email);
         this.tokenHold = tokenHold;
-    }
-
-    //Method which returns info details
-    public String displayLearnerDetails(){
-        return getFirstName() + " " + getLastName() + " " + getEmail() + " " + getTokenHold();
     }
 
     //List for getting subjects
@@ -33,13 +25,13 @@ public class Teacher extends Person {
         }
     }
     //Checks whether net.studies.Teacher has subject and are equal to three or more
-    public String takeALesson(Subjects subjects){
+    public String teachALesson(Subjects subjects){
 
         if(lectureList.contains(subjects) && getNumberOfSubjects() >= 1){
             return "CAN TEACH A LESSON";
         }
         else{
-            return "YOU DON'T QUALIFY";
+            return "YOU DON'T QUALIFY TO TEACH THE LESSON";
         }
     }
 

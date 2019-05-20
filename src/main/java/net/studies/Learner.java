@@ -1,8 +1,5 @@
 package net.studies;
 
-import net.studies.Person;
-import net.studies.Subjects;
-
 import java.util.ArrayList;
 
 public class Learner extends Person {
@@ -13,11 +10,6 @@ public class Learner extends Person {
     public Learner(String firstName, String lastName, String email, int tokenHold) {
         super(firstName, lastName,email);
         this.tokenHold = tokenHold;
-    }
-
-    //Method which returns info details
-    public String displayLearnerDetails(){
-        return getFirstName() + " " + getLastName() + " " + getEmail() + " " + getTokenHold();
     }
 
     //List for getting subjects

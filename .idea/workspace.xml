@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdffbb8c-1226-445a-b613-7e20316c4f7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/studies/TeacherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Learner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/studies/Learner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/studies/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Subjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/studies/Subjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/studies/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LearnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/studies/LearnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/studies/Learner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/studies/Learner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/studies/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/studies/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/studies/LearnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/studies/LearnerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,27 +22,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Subjects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="-300">
               <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding>
                 <element signature="e#949#950#0" expanded="true" />
@@ -61,10 +41,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Teacher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="480">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#576#586#0" expanded="true" />
                 <element signature="e#1193#1194#0" expanded="true" />
                 <element signature="e#1225#1226#0" expanded="true" />
@@ -75,15 +54,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/studies/TeacherTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Learner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#401#411#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
                 <element signature="e#1003#1004#0" expanded="true" />
                 <element signature="e#1045#1046#0" expanded="true" />
               </folding>
@@ -91,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/studies/LearnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            <state relative-caret-position="-54">
+              <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,8 +115,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Teacher.java" />
         <option value="$PROJECT_DIR$/src/test/java/LearnerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Learner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/studies/Learner.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lesson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/studies/Learner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/studies/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/studies/LearnerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/studies/TeacherTest.java" />
       </list>
     </option>
   </component>
@@ -207,6 +200,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.studies" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -219,51 +217,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LearnerTest">
-    <configuration name="LearnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LearnerTest.shouldDisplayLearnerFirstLastNameAndEmail">
+    <configuration name="LearnerTest.shouldDisplayLearnerFirstLastNameAndEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studying-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.studies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="net.studies" />
       <option name="MAIN_CLASS_NAME" value="net.studies.LearnerTest" />
+      <option name="METHOD_NAME" value="shouldDisplayLearnerFirstLastNameAndEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studying-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.studies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.studies" />
+      <option name="MAIN_CLASS_NAME" value="net.studies.TeacherTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnerTest.shouldBeAbleToAddSubjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeacherTest.shouldAllowTeacherToDoALesson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studying-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.studies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="net.studies" />
-      <option name="MAIN_CLASS_NAME" value="net.studies.LearnerTest" />
-      <option name="METHOD_NAME" value="shouldBeAbleToAddSubjects" />
+      <option name="MAIN_CLASS_NAME" value="net.studies.TeacherTest" />
+      <option name="METHOD_NAME" value="shouldAllowTeacherToDoALesson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnerTest.shouldDisplayFirstLastNameAndEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeacherTest.shouldDisqualifyALeaner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studying-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.studies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="net.studies" />
-      <option name="MAIN_CLASS_NAME" value="net.studies.LearnerTest" />
-      <option name="METHOD_NAME" value="shouldDisplayFirstLastNameAndEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LearnerTest.shouldDisqualifyALeaner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studying-in-java" />
-      <option name="PACKAGE_NAME" value="net.studies" />
-      <option name="MAIN_CLASS_NAME" value="net.studies.LearnerTest" />
+      <option name="MAIN_CLASS_NAME" value="net.studies.TeacherTest" />
       <option name="METHOD_NAME" value="shouldDisqualifyALeaner" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnerTest.shouldQualifyALeaner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeacherTest.shouldTeacherDisplayFirstLastNameAndEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studying-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.studies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="net.studies" />
-      <option name="MAIN_CLASS_NAME" value="net.studies.LearnerTest" />
-      <option name="METHOD_NAME" value="shouldQualifyALeaner" />
+      <option name="MAIN_CLASS_NAME" value="net.studies.TeacherTest" />
+      <option name="METHOD_NAME" value="shouldTeacherDisplayFirstLastNameAndEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LearnerTest" />
-        <item itemvalue="JUnit.LearnerTest.shouldDisplayFirstLastNameAndEmail" />
-        <item itemvalue="JUnit.LearnerTest.shouldQualifyALeaner" />
-        <item itemvalue="JUnit.LearnerTest.shouldDisqualifyALeaner" />
-        <item itemvalue="JUnit.LearnerTest.shouldBeAbleToAddSubjects" />
+        <item itemvalue="JUnit.LearnerTest.shouldDisplayLearnerFirstLastNameAndEmail" />
+        <item itemvalue="JUnit.TeacherTest.shouldTeacherDisplayFirstLastNameAndEmail" />
+        <item itemvalue="JUnit.TeacherTest" />
+        <item itemvalue="JUnit.TeacherTest.shouldDisqualifyALeaner" />
+        <item itemvalue="JUnit.TeacherTest.shouldAllowTeacherToDoALesson" />
       </list>
     </recent_temporary>
   </component>
@@ -293,42 +321,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LearnerTest_shouldDisqualifyALeaner - 2019.05.20 at 09h 25m 44s.xml">
-      <configuration name="LearnerTest.shouldDisqualifyALeaner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LearnerTest_shouldQualifyALeaner - 2019.05.20 at 10h 58m 09s.xml">
-      <configuration name="LearnerTest.shouldQualifyALeaner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LearnerTest_shouldQualifyALeaner - 2019.05.20 at 10h 59m 15s.xml">
-      <configuration name="LearnerTest.shouldQualifyALeaner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LearnerTest_shouldQualifyALeaner - 2019.05.20 at 10h 59m 36s.xml">
-      <configuration name="LearnerTest.shouldQualifyALeaner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LearnerTest_shouldDisplayFirstLastNameAndEmail - 2019.05.20 at 11h 00m 13s.xml">
-      <configuration name="LearnerTest.shouldDisplayFirstLastNameAndEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LearnerTest_shouldDisplayFirstLastNameAndEmail - 2019.05.20 at 11h 00m 51s.xml">
-      <configuration name="LearnerTest.shouldDisplayFirstLastNameAndEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LearnerTest_shouldDisplayFirstLastNameAndEmail - 2019.05.20 at 11h 01m 31s.xml">
-      <configuration name="LearnerTest.shouldDisplayFirstLastNameAndEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LearnerTest_shouldDisplayFirstLastNameAndEmail - 2019.05.20 at 11h 02m 15s.xml">
-      <configuration name="LearnerTest.shouldDisplayFirstLastNameAndEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LearnerTest_shouldDisplayFirstLastNameAndEmail - 2019.05.20 at 11h 06m 10s.xml">
-      <configuration name="LearnerTest.shouldDisplayFirstLastNameAndEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LearnerTest - 2019.05.20 at 11h 43m 52s.xml">
+    <history-entry file="LearnerTest - 2019.05.20 at 11h 55m 22s.xml">
       <configuration name="LearnerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTest_shouldTeacherDisplayFirstLastNameAndEmail - 2019.05.20 at 12h 05m 26s.xml">
+      <configuration name="TeacherTest.shouldTeacherDisplayFirstLastNameAndEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTest_shouldAllowTeacherToDoALesson - 2019.05.20 at 12h 10m 27s.xml">
+      <configuration name="TeacherTest.shouldAllowTeacherToDoALesson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTest_shouldAllowTeacherToDoALesson - 2019.05.20 at 12h 13m 05s.xml">
+      <configuration name="TeacherTest.shouldAllowTeacherToDoALesson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTest_shouldDisqualifyALeaner - 2019.05.20 at 12h 14m 19s.xml">
+      <configuration name="TeacherTest.shouldDisqualifyALeaner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTest_shouldDisqualifyALeaner - 2019.05.20 at 12h 14m 56s.xml">
+      <configuration name="TeacherTest.shouldDisqualifyALeaner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTest_shouldDisqualifyALeaner - 2019.05.20 at 12h 15m 20s.xml">
+      <configuration name="TeacherTest.shouldDisqualifyALeaner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTest_shouldDisqualifyALeaner - 2019.05.20 at 12h 15m 59s.xml">
+      <configuration name="TeacherTest.shouldDisqualifyALeaner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTest_shouldDisqualifyALeaner - 2019.05.20 at 12h 16m 55s.xml">
+      <configuration name="TeacherTest.shouldDisqualifyALeaner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTest - 2019.05.20 at 12h 17m 35s.xml">
+      <configuration name="TeacherTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25737053" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25737053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -340,8 +368,8 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Messages" weight="0.32917318" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,6 +423,13 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -402,9 +437,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Learner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#401#411#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/studies/LearnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="e#576#586#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Subjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="-300">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding>
             <element signature="e#949#950#0" expanded="true" />
@@ -417,53 +496,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Teacher.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/studies/TeacherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#576#586#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Subjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lesson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Learner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#411#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/studies/LearnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        <state relative-caret-position="180">
+          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
