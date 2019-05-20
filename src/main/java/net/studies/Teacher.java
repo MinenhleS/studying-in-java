@@ -1,7 +1,11 @@
-import java.util.ArrayList;
-import java.util.HashMap;
+package net.studies;
 
-public class Teacher extends Person{
+import net.studies.Person;
+import net.studies.Subjects;
+
+import java.util.ArrayList;
+
+public class Teacher extends Person {
 
     int tokenHold;
 
@@ -28,7 +32,7 @@ public class Teacher extends Person{
 
         }
     }
-    //Checks whether Teacher has subject and are equal to three or more
+    //Checks whether net.studies.Teacher has subject and are equal to three or more
     public String takeALesson(Subjects subjects){
 
         if(lectureList.contains(subjects) && getNumberOfSubjects() >= 1){
@@ -39,7 +43,7 @@ public class Teacher extends Person{
         }
     }
 
-    //Teacher token packet
+    //net.studies.Teacher token packet
     public int getTokenHold() {
         return tokenHold;
     }

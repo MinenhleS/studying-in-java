@@ -1,3 +1,5 @@
+package net.studies;
+
 public enum Subjects {
 
     Mathematics,

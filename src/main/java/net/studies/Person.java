@@ -1,3 +1,5 @@
+package net.studies;
+
 public class Person {
 
    String firstName; //store the first name

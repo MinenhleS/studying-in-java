@@ -1,3 +1,7 @@
+package net.studies;
+
+import net.studies.Subjects;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -9,7 +13,7 @@ public class LearnerTest {
 
         Learner learner  = new Learner("Minenhle", "Ngwenya", "dinho@gmail.com", 0);
 
-        assertEquals("Minenhle Ngwenya dinho@gmail.com 0", learner.displayLearnerDetails());
+        Assert.assertEquals("Minenhle Ngwenya dinho@gmail.com 0", learner.displayLearnerDetails());
     }
 
     @Test
@@ -21,7 +25,7 @@ public class LearnerTest {
         learner.registerSubject(Subjects.valueOf("CompSci"));
         learner.registerSubject(Subjects.valueOf("Statistics"));
 
-        assertEquals("CAN TAKE A LESSON", learner.takeALesson(Subjects.CompSci));
+        Assert.assertEquals("CAN TAKE A LESSON", learner.takeALesson(Subjects.CompSci));
     }
 
     @Test
@@ -33,7 +37,7 @@ public class LearnerTest {
 
 
 
-        assertEquals("YOU DON'T QUALIFY", learner.takeALesson(Subjects.CompSci));
+        Assert.assertEquals("YOU DON'T QUALIFY", learner.takeALesson(Subjects.CompSci));
     }
 
 

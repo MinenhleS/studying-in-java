@@ -1,3 +1,8 @@
+package net.studies;
+
+import net.studies.Person;
+import net.studies.Subjects;
+
 import java.util.ArrayList;
 
 public class Learner extends Person {
@@ -40,7 +45,7 @@ public class Learner extends Person {
         }
     }
 
-    //Learner token packet
+    //net.studies.Learner token packet
     public int getTokenHold() {
         return tokenHold;
     }
