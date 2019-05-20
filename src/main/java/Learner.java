@@ -10,7 +10,7 @@ public class Learner extends Person {
         this.tokenHold = tokenHold;
     }
 
-    //Method which returns learner info details
+    //Method which returns info details
     public String displayLearnerDetails(){
         return getFirstName() + " " + getLastName() + " " + getEmail() + " " + getTokenHold();
     }
@@ -18,8 +18,8 @@ public class Learner extends Person {
     //List for getting subjects
     ArrayList<Subjects> subjectsList = new ArrayList<Subjects>();
 
-    //Adding the subject in the arrayList whicj is named subjectList
-    public void addingSubject(Subjects subjects){
+    //Adding the subject in the arrayList which is named subjectList
+    public void registerSubject(Subjects subjects){
 
 
         if(!subjectsList.contains(subjects)){
@@ -45,7 +45,7 @@ public class Learner extends Person {
         return tokenHold;
     }
 
-    //Number of subjects that are added in arrayList
+    //Number of subjects that are registered
     public int getNumberOfSubjects(){
         return subjectsList.size();
     }

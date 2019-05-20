@@ -15,11 +15,11 @@ public class LearnerTest {
     @Test
     public void shouldQualifyALeaner(){
 
-        Learner learner  = new Learner("", "", "", 0);
-        learner.addingSubject(Subjects.valueOf("Mathematics"));
-        learner.addingSubject(Subjects.valueOf("Physics"));
-        learner.addingSubject(Subjects.valueOf("CompSci"));
-        learner.addingSubject(Subjects.valueOf("Statistics"));
+        Learner learner  = new Learner("Siya", "Malinga", "malinga@gmail.com", 0);
+        learner.registerSubject(Subjects.valueOf("Mathematics"));
+        learner.registerSubject(Subjects.valueOf("Physics"));
+        learner.registerSubject(Subjects.valueOf("CompSci"));
+        learner.registerSubject(Subjects.valueOf("Statistics"));
 
         assertEquals("CAN TAKE A LESSON", learner.takeALesson(Subjects.CompSci));
     }
@@ -27,9 +27,9 @@ public class LearnerTest {
     @Test
     public void shouldDisqualifyALeaner(){
 
-        Learner learner  = new Learner("", "", "", 0);
-        learner.addingSubject(Subjects.valueOf("Mathematics"));
-        learner.addingSubject(Subjects.valueOf("Physics"));
+        Learner learner  = new Learner("Dinho", "Khumalo", "siya@gmail.com", 0);
+        learner.registerSubject(Subjects.valueOf("Mathematics"));
+        learner.registerSubject(Subjects.valueOf("Physics"));
 
 
 

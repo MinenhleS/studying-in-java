@@ -1,32 +1,54 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Teacher extends Person{
 
-    int numberOfSubjects;
     int tokenHold;
 
     //constructor
     public Teacher(String firstName, String lastName, String email, int tokenHold) {
         super(firstName, lastName,email);
         this.tokenHold = tokenHold;
-
     }
 
-    //Map for getting subjects
-    HashMap<String, Integer> modules = new HashMap<>();
+    //Method which returns info details
+    public String displayLearnerDetails(){
+        return getFirstName() + " " + getLastName() + " " + getEmail() + " " + getTokenHold();
+    }
 
-    public String takeALesson(){
-        numberOfSubjects = modules.size();
+    //List for getting subjects
+    ArrayList<Subjects> lectureList = new ArrayList<Subjects>();
 
-        if(numberOfSubjects >= 1){
-            return "CAN TEACH LESSON";
+    //Adding the subject in the arrayList which is named lectureList
+    //registering
+    public void registerSubject(Subjects subjects){
+
+        if(!lectureList.contains(subjects)){
+            lectureList.add(subjects);
+
+        }
+    }
+    //Checks whether Teacher has subject and are equal to three or more
+    public String takeALesson(Subjects subjects){
+
+        if(lectureList.contains(subjects) && getNumberOfSubjects() >= 1){
+            return "CAN TEACH A LESSON";
         }
         else{
             return "YOU DON'T QUALIFY";
         }
     }
 
+    //Teacher token packet
     public int getTokenHold() {
         return tokenHold;
     }
+
+    //Number of subjects that are registered
+    public int getNumberOfSubjects(){
+        return lectureList.size();
+    }
+
+
+
 }
