@@ -1,9 +1,7 @@
-import java.util.HashMap;
+import java.util.ArrayList;
 
 public class Learner extends Person {
 
-    //String subName;
-    int numberOfSubjects;
     int tokenHold = 0;
 
     //constructor
@@ -12,25 +10,29 @@ public class Learner extends Person {
         this.tokenHold = tokenHold;
     }
 
-    //Map for getting subjects
-    HashMap<String, Integer> subjectsMap = new HashMap<>();
-
-    public void addingSubject(String subName){
-
-
-        if(!subjectsMap.containsKey(subName)){
-            subjectsMap.put(subName,1);
-
-        }
-//        int subCounter = subjectsMap.get(subName);
-//        subjectsMap.put(subName,subCounter);
-
+    //Method which returns learner info details
+    public String displayLearnerDetails(){
+        return getFirstName() + " " + getLastName() + " " + getEmail() + " " + getTokenHold();
     }
 
-    public String takeALesson(){
-        numberOfSubjects = subjectsMap.size();
+    //List for getting subjects
+    ArrayList<Subjects> subjectsList = new ArrayList<Subjects>();
 
-        if(numberOfSubjects >= 3){
+    //Adding the subject in the arrayList whicj is named subjectList
+    public void addingSubject(Subjects subjects){
+
+
+        if(!subjectsList.contains(subjects)){
+            subjectsList.add(subjects);
+
+        }
+
+
+    }
+    //Checks whether learner has subject and are equal to three or more
+    public String takeALesson(Subjects subjects){
+
+        if(subjectsList.contains(subjects) && getNumberOfSubjects() >= 3){
             return "CAN TAKE A LESSON";
         }
         else{
@@ -38,11 +40,15 @@ public class Learner extends Person {
         }
     }
 
+    //Learner token packet
     public int getTokenHold() {
         return tokenHold;
     }
 
-
+    //Number of subjects that are added in arrayList
+    public int getNumberOfSubjects(){
+        return subjectsList.size();
+    }
 
 }
 
