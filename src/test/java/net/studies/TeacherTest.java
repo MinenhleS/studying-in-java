@@ -24,7 +24,7 @@ public class TeacherTest {
     }
 
     @Test
-    public void shouldDisqualifyALeaner(){
+    public void shouldDisqualifyATeacherFromDoingTheLesson(){
 
         Teacher teacher  = new Teacher("Dinho", "Khumalo", "siya@gmail.com", 0);
         teacher.registerSubject(Subjects.valueOf("Mathematics"));
