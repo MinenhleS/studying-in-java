@@ -14,7 +14,7 @@ public class LearnerTest {
     }
 
     @Test
-    public void shouldQualifyALeaner(){
+    public void shouldQualifyALeanerForTheLesson(){
 
         Learner learner  = new Learner("Siya", "Malinga", "malinga@gmail.com", 0);
         learner.registerSubject(Subjects.valueOf("Mathematics"));
@@ -26,7 +26,7 @@ public class LearnerTest {
     }
 
     @Test
-    public void shouldDisqualifyALeaner(){
+    public void shouldDisqualifyALeanerForTheLesson(){
 
         Learner learner  = new Learner("Dinho", "Khumalo", "siya@gmail.com", 0);
         learner.registerSubject(Subjects.valueOf("Mathematics"));

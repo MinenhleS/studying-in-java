@@ -27,14 +27,9 @@ public class Learner extends Person {
 
     }
     //Checks whether learner has subject and are equal to three or more
-    public String takeALesson(Subjects subjects){
+    public boolean takeALesson(Subjects subjects){
 
-        if(subjectsList.contains(subjects) && getNumberOfSubjects() >= 3){
-            return "CAN TAKE A LESSON";
-        }
-        else{
-            return "YOU DON'T QUALIFY";
-        }
+    return subjectsList.contains(subjects) && getNumberOfSubjects() >= 3;
     }
 
     //net.studies.Learner token packet

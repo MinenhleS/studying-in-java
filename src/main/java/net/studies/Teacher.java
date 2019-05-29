@@ -25,14 +25,10 @@ public class Teacher extends Person {
         }
     }
     //Checks whether net.studies.Teacher has subject and are equal to three or more
-    public String teachALesson(Subjects subjects){
+    public boolean teachALesson(Subjects subjects){
 
-        if(lectureList.contains(subjects) && getNumberOfSubjects() >= 1){
-            return "CAN TEACH A LESSON";
-        }
-        else{
-            return "YOU DON'T QUALIFY TO TEACH THE LESSON";
-        }
+        return lectureList.contains(subjects) && getNumberOfSubjects() >= 1;
+
     }
 
     //net.studies.Teacher token packet
