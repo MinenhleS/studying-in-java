@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 public class Teacher extends Person {
 
-    int tokenHold;
+    int tokenHold = 0;
 
     //constructor
-    public Teacher(String firstName, String lastName, String email, int tokenHold) {
+    public Teacher(String firstName, String lastName, String email) {
         super(firstName, lastName,email);
-        this.tokenHold = tokenHold;
+
     }
 
     //List for getting subjects

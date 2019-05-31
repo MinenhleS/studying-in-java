@@ -7,9 +7,8 @@ public class Learner extends Person {
     int tokenHold = 0;
 
     //constructor
-    public Learner(String firstName, String lastName, String email, int tokenHold) {
+    public Learner(String firstName, String lastName, String email) {
         super(firstName, lastName,email);
-        this.tokenHold = tokenHold;
     }
 
     //List for getting subjects

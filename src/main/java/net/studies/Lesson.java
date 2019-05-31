@@ -23,11 +23,14 @@ public class Lesson {
        return false;
     }
 
-    public void startLesson(Teacher teacher) {
+    public String startLesson(Teacher teacher) {
         if(teacher.teachALesson(subject) && acceptLessons()) {
             //successful
+            return "Can start a lesson";
             //give notes & token (teacher learner)
+
         }
+        return "Sorry you can't start a lesson";
     }
 
     public boolean acceptLessons(){
