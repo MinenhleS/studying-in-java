@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdffbb8c-1226-445a-b613-7e20316c4f7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/studies/Learner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/studies/Learner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/studies/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/studies/Lesson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/studies/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/studies/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/net/studies/LessonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/studies/LessonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Learner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state relative-caret-position="165">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#262#263#0" expanded="true" />
@@ -67,20 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Lesson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/studies/LessonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+            <state relative-caret-position="677">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,18 +139,18 @@
         <option value="$PROJECT_DIR$/src/main/java/Lesson.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/studies/LearnerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/studies/TeacherTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/net/studies/LessonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/studies/Learner.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/studies/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/studies/LessonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/studies/Lesson.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1509" />
+    <option name="x" value="1431" />
     <option name="y" value="-4" />
-    <option name="width" value="1299" />
-    <option name="height" value="764" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -243,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LessonTest.shouldCheckIfTeacherIsAcceptableToStartALesson">
+  <component name="RunManager" selected="JUnit.LessonTest.shouldAllocateTokensToTeacherAndLearners">
     <configuration name="LearnerTest.shouldDisqualifyALeanerForTheLesson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studying-in-java" />
       <extension name="coverage">
@@ -255,22 +257,6 @@
       <option name="PACKAGE_NAME" value="net.studies" />
       <option name="MAIN_CLASS_NAME" value="net.studies.LearnerTest" />
       <option name="METHOD_NAME" value="shouldDisqualifyALeanerForTheLesson" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LearnerTest.shouldQualifyALeanerForTheLesson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studying-in-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.studies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="net.studies" />
-      <option name="MAIN_CLASS_NAME" value="net.studies.LearnerTest" />
-      <option name="METHOD_NAME" value="shouldQualifyALeanerForTheLesson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -308,6 +294,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LessonTest.shouldAllocateTokensToTeacherAndLearners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studying-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.studies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.studies" />
+      <option name="MAIN_CLASS_NAME" value="net.studies.LessonTest" />
+      <option name="METHOD_NAME" value="shouldAllocateTokensToTeacherAndLearners" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LessonTest.shouldCheckIfTeacherIsAcceptableToStartALesson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studying-in-java" />
       <extension name="coverage">
@@ -326,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LessonTest.shouldAllocateTokensToTeacherAndLearners" />
         <item itemvalue="JUnit.LessonTest.shouldCheckIfTeacherIsAcceptableToStartALesson" />
         <item itemvalue="JUnit.LessonTest.shouldAcceptToALessonByCheckingThereIsAtleastFiveLearners" />
         <item itemvalue="JUnit.LessonTest.shouldAddLearners" />
         <item itemvalue="JUnit.LearnerTest.shouldDisqualifyALeanerForTheLesson" />
-        <item itemvalue="JUnit.LearnerTest.shouldQualifyALeanerForTheLesson" />
       </list>
     </recent_temporary>
   </component>
@@ -348,35 +350,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LessonTest_shouldAcceptToALessonByCheckingThereIsAtleastFiveLearners - 2019.05.31 at 15h 11m 53s.xml">
-      <configuration name="LessonTest.shouldAcceptToALessonByCheckingThereIsAtleastFiveLearners" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_shouldAcceptToALessonByCheckingThereIsAtleastFiveLearners - 2019.05.31 at 15h 12m 18s.xml">
-      <configuration name="LessonTest.shouldAcceptToALessonByCheckingThereIsAtleastFiveLearners" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_shouldAcceptToALessonByCheckingThereIsAtleastFiveLearners - 2019.05.31 at 15h 12m 53s.xml">
-      <configuration name="LessonTest.shouldAcceptToALessonByCheckingThereIsAtleastFiveLearners" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_shouldAcceptToALessonByCheckingThereIsAtleastFiveLearners - 2019.05.31 at 15h 13m 11s.xml">
-      <configuration name="LessonTest.shouldAcceptToALessonByCheckingThereIsAtleastFiveLearners" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_shouldCheckIfTeacherIsAcceptableToStartALesson - 2019.06.03 at 10h 05m 47s.xml">
+    <history-entry file="LessonTest_shouldCheckIfTeacherIsAcceptableToStartALesson - 2019.06.03 at 16h 12m 00s.xml">
       <configuration name="LessonTest.shouldCheckIfTeacherIsAcceptableToStartALesson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonTest_shouldCheckIfTeacherIsAcceptableToStartALesson - 2019.06.03 at 10h 26m 32s.xml">
+    <history-entry file="LessonTest_shouldCheckIfTeacherIsAcceptableToStartALesson - 2019.06.03 at 16h 13m 18s.xml">
       <configuration name="LessonTest.shouldCheckIfTeacherIsAcceptableToStartALesson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonTest_shouldCheckIfTeacherIsAcceptableToStartALesson - 2019.06.03 at 10h 29m 59s.xml">
-      <configuration name="LessonTest.shouldCheckIfTeacherIsAcceptableToStartALesson" configurationId="JUnit" />
+    <history-entry file="LessonTest_shouldAllocateTokensToTeacherAndLearners - 2019.06.03 at 17h 40m 28s.xml">
+      <configuration name="LessonTest.shouldAllocateTokensToTeacherAndLearners" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonTest_shouldCheckIfTeacherIsAcceptableToStartALesson - 2019.06.03 at 10h 31m 56s.xml">
-      <configuration name="LessonTest.shouldCheckIfTeacherIsAcceptableToStartALesson" configurationId="JUnit" />
+    <history-entry file="LessonTest_shouldAllocateTokensToTeacherAndLearners - 2019.06.03 at 17h 41m 53s.xml">
+      <configuration name="LessonTest.shouldAllocateTokensToTeacherAndLearners" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonTest_shouldCheckIfTeacherIsAcceptableToStartALesson - 2019.06.03 at 10h 44m 16s.xml">
-      <configuration name="LessonTest.shouldCheckIfTeacherIsAcceptableToStartALesson" configurationId="JUnit" />
+    <history-entry file="LessonTest_shouldAllocateTokensToTeacherAndLearners - 2019.06.03 at 17h 51m 43s.xml">
+      <configuration name="LessonTest.shouldAllocateTokensToTeacherAndLearners" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LessonTest_shouldCheckIfTeacherIsAcceptableToStartALesson - 2019.06.03 at 10h 56m 49s.xml">
-      <configuration name="LessonTest.shouldCheckIfTeacherIsAcceptableToStartALesson" configurationId="JUnit" />
+    <history-entry file="LessonTest_shouldAllocateTokensToTeacherAndLearners - 2019.06.03 at 17h 53m 21s.xml">
+      <configuration name="LessonTest.shouldAllocateTokensToTeacherAndLearners" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonTest_shouldAllocateTokensToTeacherAndLearners - 2019.06.03 at 18h 11m 55s.xml">
+      <configuration name="LessonTest.shouldAllocateTokensToTeacherAndLearners" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonTest_shouldAllocateTokensToTeacherAndLearners - 2019.06.03 at 18h 13m 28s.xml">
+      <configuration name="LessonTest.shouldAllocateTokensToTeacherAndLearners" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonTest_shouldAllocateTokensToTeacherAndLearners - 2019.06.03 at 18h 16m 32s.xml">
+      <configuration name="LessonTest.shouldAllocateTokensToTeacherAndLearners" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonTest_shouldAllocateTokensToTeacherAndLearners - 2019.06.03 at 18h 17m 12s.xml">
+      <configuration name="LessonTest.shouldAllocateTokensToTeacherAndLearners" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -395,7 +397,7 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37668163" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2690583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,16 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/studies/LessonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -516,8 +508,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Learner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="165">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#262#263#0" expanded="true" />
@@ -529,8 +521,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/studies/Lesson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="330">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/studies/LessonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

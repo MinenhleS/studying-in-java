@@ -1,6 +1,7 @@
 package net.studies;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Lesson {
 
@@ -19,7 +20,6 @@ public class Lesson {
     public boolean addLearners(Learner learner){
        if(learner.takeALesson(subject)){
             attendingList.add(learner);
-           learner.getTokenHold();
             return true;
        }
        return false;
@@ -27,14 +27,19 @@ public class Lesson {
 
     public String startLesson(Teacher teacher) {
         if(teacher.teachALesson(subject) && acceptLessons()) {
-            teacher.getTokenHold();
+            teacher.getTokenHold() ;
+            for (Learner learner: attendingList) {
+                 learner.getTokenHold();
+            }
+
             //successful
-            return "Can start a lesson";
+            return   "Can start a lesson";
             //give notes & token (teacher learner)
 
         }
         return "Sorry you can't start a lesson";
     }
+
 
     public boolean acceptLessons(){
         return attendingList.size() >= minNoOfLearners;
