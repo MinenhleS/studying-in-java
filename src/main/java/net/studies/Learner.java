@@ -33,7 +33,7 @@ public class Learner extends Person {
 
     //net.studies.Learner token packet
     public int getTokenHold() {
-        return tokenHold;
+        return tokenHold += 3;
     }
 
     //Number of subjects that are registered

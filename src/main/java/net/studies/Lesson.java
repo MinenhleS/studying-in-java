@@ -12,12 +12,14 @@ public class Lesson {
     ArrayList<Learner> attendingList = new ArrayList<>();
 
     public Lesson(Subjects subjects) {
+
         this.subject = subjects;
     }
 
     public boolean addLearners(Learner learner){
        if(learner.takeALesson(subject)){
             attendingList.add(learner);
+           learner.getTokenHold();
             return true;
        }
        return false;
@@ -25,6 +27,7 @@ public class Lesson {
 
     public String startLesson(Teacher teacher) {
         if(teacher.teachALesson(subject) && acceptLessons()) {
+            teacher.getTokenHold();
             //successful
             return "Can start a lesson";
             //give notes & token (teacher learner)

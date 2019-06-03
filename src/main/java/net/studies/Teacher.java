@@ -27,13 +27,13 @@ public class Teacher extends Person {
     //Checks whether net.studies.Teacher has subject and are equal to three or more
     public boolean teachALesson(Subjects subjects){
 
-        return lectureList.contains(subjects) && getNumberOfSubjects() >= 1;
+        return lectureList.contains(subjects);
 
     }
 
     //net.studies.Teacher token packet
     public int getTokenHold() {
-        return tokenHold;
+        return tokenHold += 5;
     }
 
     //Number of subjects that are registered
